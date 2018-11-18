@@ -26,6 +26,8 @@
 	<string>Copyright © 2018 Brenden Smerbeck. All rights reserved.</string>
 	<key>NSMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Play with BLE Compatible devices</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>

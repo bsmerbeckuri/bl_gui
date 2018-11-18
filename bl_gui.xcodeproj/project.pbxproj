@@ -12,8 +12,6 @@
 		790F6CB521A1F39500EF5136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790F6CB421A1F39500EF5136 /* Assets.xcassets */; };
 		790F6CB821A1F39500EF5136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790F6CB621A1F39500EF5136 /* Main.storyboard */; };
 		790F6CBB21A1F39500EF5136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F6CBA21A1F39500EF5136 /* main.m */; };
-		790F6CC621A1F39500EF5136 /* bl_guiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F6CC521A1F39500EF5136 /* bl_guiTests.m */; };
-		790F6CD121A1F39600EF5136 /* bl_guiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F6CD021A1F39600EF5136 /* bl_guiUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +43,9 @@
 		790F6CBA21A1F39500EF5136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		790F6CBC21A1F39500EF5136 /* bl_gui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bl_gui.entitlements; sourceTree = "<group>"; };
 		790F6CC121A1F39500EF5136 /* bl_guiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bl_guiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		790F6CC521A1F39500EF5136 /* bl_guiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bl_guiTests.m; sourceTree = "<group>"; };
-		790F6CC721A1F39500EF5136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		790F6CCC21A1F39500EF5136 /* bl_guiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bl_guiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		790F6CD021A1F39600EF5136 /* bl_guiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bl_guiUITests.m; sourceTree = "<group>"; };
-		790F6CD221A1F39600EF5136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790F6CDE21A1F3DC00EF5136 /* BTLECentralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLECentralViewController.h; sourceTree = "<group>"; };
+		790F6CDF21A1F44A00EF5136 /* TransferService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				790F6CAD21A1F39400EF5136 /* bl_gui */,
-				790F6CC421A1F39500EF5136 /* bl_guiTests */,
-				790F6CCF21A1F39600EF5136 /* bl_guiUITests */,
 				790F6CAC21A1F39400EF5136 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +94,8 @@
 		790F6CAD21A1F39400EF5136 /* bl_gui */ = {
 			isa = PBXGroup;
 			children = (
+				790F6CDF21A1F44A00EF5136 /* TransferService.h */,
+				790F6CDE21A1F3DC00EF5136 /* BTLECentralViewController.h */,
 				790F6CAE21A1F39400EF5136 /* AppDelegate.h */,
 				790F6CAF21A1F39400EF5136 /* AppDelegate.m */,
 				790F6CB121A1F39400EF5136 /* ViewController.h */,
@@ -111,24 +107,6 @@
 				790F6CBC21A1F39500EF5136 /* bl_gui.entitlements */,
 			);
 			path = bl_gui;
-			sourceTree = "<group>";
-		};
-		790F6CC421A1F39500EF5136 /* bl_guiTests */ = {
-			isa = PBXGroup;
-			children = (
-				790F6CC521A1F39500EF5136 /* bl_guiTests.m */,
-				790F6CC721A1F39500EF5136 /* Info.plist */,
-			);
-			path = bl_guiTests;
-			sourceTree = "<group>";
-		};
-		790F6CCF21A1F39600EF5136 /* bl_guiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				790F6CD021A1F39600EF5136 /* bl_guiUITests.m */,
-				790F6CD221A1F39600EF5136 /* Info.plist */,
-			);
-			path = bl_guiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +176,11 @@
 				TargetAttributes = {
 					790F6CAA21A1F39400EF5136 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					790F6CC021A1F39500EF5136 = {
 						CreatedOnToolsVersion = 10.1;
@@ -270,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790F6CC621A1F39500EF5136 /* bl_guiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790F6CD121A1F39600EF5136 /* bl_guiUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +405,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = bl_gui/bl_gui.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W4734JYTAP;
@@ -442,7 +422,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = bl_gui/bl_gui.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W4734JYTAP;
