@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790F6CB021A1F39400EF5136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F6CAF21A1F39400EF5136 /* AppDelegate.m */; };
+		790F6CB321A1F39400EF5136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F6CB221A1F39400EF5136 /* ViewController.m */; };
+		790F6CB521A1F39500EF5136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790F6CB421A1F39500EF5136 /* Assets.xcassets */; };
+		790F6CB821A1F39500EF5136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790F6CB621A1F39500EF5136 /* Main.storyboard */; };
+		790F6CBB21A1F39500EF5136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F6CBA21A1F39500EF5136 /* main.m */; };
+		790F6CC621A1F39500EF5136 /* bl_guiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F6CC521A1F39500EF5136 /* bl_guiTests.m */; };
+		790F6CD121A1F39600EF5136 /* bl_guiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 790F6CD021A1F39600EF5136 /* bl_guiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790F6CC221A1F39500EF5136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790F6CA321A1F39400EF5136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790F6CAA21A1F39400EF5136;
+			remoteInfo = bl_gui;
+		};
+		790F6CCD21A1F39500EF5136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790F6CA321A1F39400EF5136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790F6CAA21A1F39400EF5136;
+			remoteInfo = bl_gui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		790F6CAB21A1F39400EF5136 /* bl_gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bl_gui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790F6CAE21A1F39400EF5136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		790F6CAF21A1F39400EF5136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		790F6CB121A1F39400EF5136 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		790F6CB221A1F39400EF5136 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		790F6CB421A1F39500EF5136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		790F6CB721A1F39500EF5136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		790F6CB921A1F39500EF5136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790F6CBA21A1F39500EF5136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		790F6CBC21A1F39500EF5136 /* bl_gui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bl_gui.entitlements; sourceTree = "<group>"; };
+		790F6CC121A1F39500EF5136 /* bl_guiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bl_guiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		790F6CC521A1F39500EF5136 /* bl_guiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bl_guiTests.m; sourceTree = "<group>"; };
+		790F6CC721A1F39500EF5136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790F6CCC21A1F39500EF5136 /* bl_guiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bl_guiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		790F6CD021A1F39600EF5136 /* bl_guiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bl_guiUITests.m; sourceTree = "<group>"; };
+		790F6CD221A1F39600EF5136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790F6CA821A1F39400EF5136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F6CBE21A1F39500EF5136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F6CC921A1F39500EF5136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790F6CA221A1F39400EF5136 = {
+			isa = PBXGroup;
+			children = (
+				790F6CAD21A1F39400EF5136 /* bl_gui */,
+				790F6CC421A1F39500EF5136 /* bl_guiTests */,
+				790F6CCF21A1F39600EF5136 /* bl_guiUITests */,
+				790F6CAC21A1F39400EF5136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790F6CAC21A1F39400EF5136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790F6CAB21A1F39400EF5136 /* bl_gui.app */,
+				790F6CC121A1F39500EF5136 /* bl_guiTests.xctest */,
+				790F6CCC21A1F39500EF5136 /* bl_guiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790F6CAD21A1F39400EF5136 /* bl_gui */ = {
+			isa = PBXGroup;
+			children = (
+				790F6CAE21A1F39400EF5136 /* AppDelegate.h */,
+				790F6CAF21A1F39400EF5136 /* AppDelegate.m */,
+				790F6CB121A1F39400EF5136 /* ViewController.h */,
+				790F6CB221A1F39400EF5136 /* ViewController.m */,
+				790F6CB421A1F39500EF5136 /* Assets.xcassets */,
+				790F6CB621A1F39500EF5136 /* Main.storyboard */,
+				790F6CB921A1F39500EF5136 /* Info.plist */,
+				790F6CBA21A1F39500EF5136 /* main.m */,
+				790F6CBC21A1F39500EF5136 /* bl_gui.entitlements */,
+			);
+			path = bl_gui;
+			sourceTree = "<group>";
+		};
+		790F6CC421A1F39500EF5136 /* bl_guiTests */ = {
+			isa = PBXGroup;
+			children = (
+				790F6CC521A1F39500EF5136 /* bl_guiTests.m */,
+				790F6CC721A1F39500EF5136 /* Info.plist */,
+			);
+			path = bl_guiTests;
+			sourceTree = "<group>";
+		};
+		790F6CCF21A1F39600EF5136 /* bl_guiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				790F6CD021A1F39600EF5136 /* bl_guiUITests.m */,
+				790F6CD221A1F39600EF5136 /* Info.plist */,
+			);
+			path = bl_guiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790F6CAA21A1F39400EF5136 /* bl_gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790F6CD521A1F39600EF5136 /* Build configuration list for PBXNativeTarget "bl_gui" */;
+			buildPhases = (
+				790F6CA721A1F39400EF5136 /* Sources */,
+				790F6CA821A1F39400EF5136 /* Frameworks */,
+				790F6CA921A1F39400EF5136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bl_gui;
+			productName = bl_gui;
+			productReference = 790F6CAB21A1F39400EF5136 /* bl_gui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		790F6CC021A1F39500EF5136 /* bl_guiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790F6CD821A1F39600EF5136 /* Build configuration list for PBXNativeTarget "bl_guiTests" */;
+			buildPhases = (
+				790F6CBD21A1F39500EF5136 /* Sources */,
+				790F6CBE21A1F39500EF5136 /* Frameworks */,
+				790F6CBF21A1F39500EF5136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790F6CC321A1F39500EF5136 /* PBXTargetDependency */,
+			);
+			name = bl_guiTests;
+			productName = bl_guiTests;
+			productReference = 790F6CC121A1F39500EF5136 /* bl_guiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		790F6CCB21A1F39500EF5136 /* bl_guiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790F6CDB21A1F39600EF5136 /* Build configuration list for PBXNativeTarget "bl_guiUITests" */;
+			buildPhases = (
+				790F6CC821A1F39500EF5136 /* Sources */,
+				790F6CC921A1F39500EF5136 /* Frameworks */,
+				790F6CCA21A1F39500EF5136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790F6CCE21A1F39500EF5136 /* PBXTargetDependency */,
+			);
+			name = bl_guiUITests;
+			productName = bl_guiUITests;
+			productReference = 790F6CCC21A1F39500EF5136 /* bl_guiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790F6CA321A1F39400EF5136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Brenden Smerbeck";
+				TargetAttributes = {
+					790F6CAA21A1F39400EF5136 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					790F6CC021A1F39500EF5136 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 790F6CAA21A1F39400EF5136;
+					};
+					790F6CCB21A1F39500EF5136 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 790F6CAA21A1F39400EF5136;
+					};
+				};
+			};
+			buildConfigurationList = 790F6CA621A1F39400EF5136 /* Build configuration list for PBXProject "bl_gui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790F6CA221A1F39400EF5136;
+			productRefGroup = 790F6CAC21A1F39400EF5136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790F6CAA21A1F39400EF5136 /* bl_gui */,
+				790F6CC021A1F39500EF5136 /* bl_guiTests */,
+				790F6CCB21A1F39500EF5136 /* bl_guiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790F6CA921A1F39400EF5136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790F6CB521A1F39500EF5136 /* Assets.xcassets in Resources */,
+				790F6CB821A1F39500EF5136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F6CBF21A1F39500EF5136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F6CCA21A1F39500EF5136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790F6CA721A1F39400EF5136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790F6CB321A1F39400EF5136 /* ViewController.m in Sources */,
+				790F6CBB21A1F39500EF5136 /* main.m in Sources */,
+				790F6CB021A1F39400EF5136 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F6CBD21A1F39500EF5136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790F6CC621A1F39500EF5136 /* bl_guiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F6CC821A1F39500EF5136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790F6CD121A1F39600EF5136 /* bl_guiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		790F6CC321A1F39500EF5136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790F6CAA21A1F39400EF5136 /* bl_gui */;
+			targetProxy = 790F6CC221A1F39500EF5136 /* PBXContainerItemProxy */;
+		};
+		790F6CCE21A1F39500EF5136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790F6CAA21A1F39400EF5136 /* bl_gui */;
+			targetProxy = 790F6CCD21A1F39500EF5136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		790F6CB621A1F39500EF5136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790F6CB721A1F39500EF5136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790F6CD321A1F39600EF5136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		790F6CD421A1F39600EF5136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		790F6CD621A1F39600EF5136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = bl_gui/bl_gui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W4734JYTAP;
+				INFOPLIST_FILE = bl_gui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bsmerbeck.bl-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		790F6CD721A1F39600EF5136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = bl_gui/bl_gui.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W4734JYTAP;
+				INFOPLIST_FILE = bl_gui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bsmerbeck.bl-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		790F6CD921A1F39600EF5136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W4734JYTAP;
+				INFOPLIST_FILE = bl_guiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bsmerbeck.bl-guiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bl_gui.app/Contents/MacOS/bl_gui";
+			};
+			name = Debug;
+		};
+		790F6CDA21A1F39600EF5136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W4734JYTAP;
+				INFOPLIST_FILE = bl_guiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bsmerbeck.bl-guiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bl_gui.app/Contents/MacOS/bl_gui";
+			};
+			name = Release;
+		};
+		790F6CDC21A1F39600EF5136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W4734JYTAP;
+				INFOPLIST_FILE = bl_guiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bsmerbeck.bl-guiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bl_gui;
+			};
+			name = Debug;
+		};
+		790F6CDD21A1F39600EF5136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W4734JYTAP;
+				INFOPLIST_FILE = bl_guiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bsmerbeck.bl-guiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bl_gui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790F6CA621A1F39400EF5136 /* Build configuration list for PBXProject "bl_gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F6CD321A1F39600EF5136 /* Debug */,
+				790F6CD421A1F39600EF5136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790F6CD521A1F39600EF5136 /* Build configuration list for PBXNativeTarget "bl_gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F6CD621A1F39600EF5136 /* Debug */,
+				790F6CD721A1F39600EF5136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790F6CD821A1F39600EF5136 /* Build configuration list for PBXNativeTarget "bl_guiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F6CD921A1F39600EF5136 /* Debug */,
+				790F6CDA21A1F39600EF5136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790F6CDB21A1F39600EF5136 /* Build configuration list for PBXNativeTarget "bl_guiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F6CDC21A1F39600EF5136 /* Debug */,
+				790F6CDD21A1F39600EF5136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790F6CA321A1F39400EF5136 /* Project object */;
+}
